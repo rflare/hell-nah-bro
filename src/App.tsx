@@ -38,7 +38,7 @@ export default function Page() {
                 <>
 
                     <img src="/trollface.gif" />
-                    <div className="my-5 text-4xl font-bold">A fate worse than death</div>
+                    <div className="my-5 text-4xl font-bold">He lunges for your cock</div>
 
                 </>
             ) : (
