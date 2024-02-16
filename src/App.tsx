@@ -37,8 +37,8 @@ export default function Page() {
             {yesPressed ? (
                 <>
 
-                    <img src="https://media1.tenor.com/m/GryShD35-psAAAAC/troll-face-creepy-smile.gif" />
-                    <div className="my-4 text-4xl font-bold">A fate worse than death</div>
+                    <img src="/trollface.gif" />
+                    <div className="my-5 text-4xl font-bold">A fate worse than death</div>
 
                 </>
             ) : (
@@ -46,7 +46,7 @@ export default function Page() {
 
                     <img
                         className="h-[200px]"
-                        src="https://media1.tenor.com/m/bQvSt7NIGWgAAAAC/funnyq.gif"
+                        src="/goofy-ahh-uncle.gif"
                     />
                     <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
                     <div className="flex items-center">
