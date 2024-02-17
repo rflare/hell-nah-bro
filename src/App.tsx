@@ -15,9 +15,9 @@ export default function Page() {
             "No",
             "NO!!",
             "Go away damnit",
-            "Assault rifle (30 bullets remaining)",
+            "Use Assault rifle (30 bullets remaining)",
             "Kick'em in the nuts",
-            "L Rizz Cosmic Ripper",
+            "Use L Rizz",
             "It didn't work",
             "Try calling the cops",
             "They didn't answer",
@@ -34,23 +34,19 @@ export default function Page() {
 
     return (
         <div className="-mt-16 flex h-screen flex-col items-center justify-center">
+            <img
+                className="h-[200px]"
+                src="https://i.ytimg.com/vi/I8Rg1BjpzWc/maxresdefault.jpg"
+            />
             {yesPressed ? (
                 <>
-
-                    <img 
-                        src="https://i.ytimg.com/vi/I8Rg1BjpzWc/maxresdefault.jpg" 
-                        className="h-[200px]"
-                    />
                     <div className="my-5 text-4xl font-bold">You now face your inevitable doom as he touches your ...</div>
 
                 </>
             ) : (
                 <>
 
-                    <img
-                        className="h-[200px]"
-                        src="https://i.ytimg.com/vi/I8Rg1BjpzWc/maxresdefault.jpg"
-                    />
+                    
                     <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
                     <div className="flex items-center">
 
