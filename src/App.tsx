@@ -37,8 +37,11 @@ export default function Page() {
             {yesPressed ? (
                 <>
 
-                    <img src="/trollface.gif" />
-                    <div className="my-5 text-4xl font-bold">He lunges for your cock</div>
+                    <img 
+                        src="https://i.ytimg.com/vi/I8Rg1BjpzWc/maxresdefault.jpg" 
+                        className="h-[200px]"
+                    />
+                    <div className="my-5 text-4xl font-bold">You now face your inevitable doom as he touches your ...</div>
 
                 </>
             ) : (
@@ -46,7 +49,7 @@ export default function Page() {
 
                     <img
                         className="h-[200px]"
-                        src="/goofy-ahh-uncle.gif"
+                        src="https://i.ytimg.com/vi/I8Rg1BjpzWc/maxresdefault.jpg"
                     />
                     <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
                     <div className="flex items-center">
